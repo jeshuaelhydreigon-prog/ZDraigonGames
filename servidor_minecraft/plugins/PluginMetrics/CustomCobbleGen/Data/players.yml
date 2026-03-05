@@ -1,0 +1,17 @@
+# CustomCobbleGen! Version: 1.3.0 By Phil14052
+# IMPORTANT: ONLY EDIT THIS IF YOU KNOW WHAT YOU ARE DOING!!
+players:
+  19aa5e0c-d92d-3c8d-bdec-7a2acc209ed4:
+    purchased:
+      DEFAULT:
+      - 0
+    selected:
+      class: DEFAULT
+      level: 0
+  3dd7a99f-9bfb-3019-bbd6-eda46f638623:
+    purchased:
+      DEFAULT:
+      - 0
+    selected:
+      class: DEFAULT
+      level: 0

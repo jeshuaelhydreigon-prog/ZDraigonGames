@@ -1,0 +1,29 @@
+lastAccountName: JeshuaZHunter
+timestamps:
+  login: 1772658622651
+  logout: 1772659114029
+  lastteleport: 1772571585430
+  kits:
+    firework: 1772573243705
+    color: 1772573238989
+    notch: 1772573101426
+    dtools: 1772573095264
+    tools: 1772573089910
+ipAddress: 38.172.59.13
+logoutlocation:
+  world: lobby
+  x: 0.5004185540866143
+  y: 64.0
+  z: 0.6267731477892821
+  yaw: -314.10272
+  pitch: 7.500029
+lastlocation:
+  world: lobby
+  x: 64.30000001192093
+  y: -198.55792716513105
+  z: -0.3966632536948449
+  yaw: 51.900055
+  pitch: -61.499958
+afk: false
+socialspy: true
+godmode: false

@@ -1,0 +1,82 @@
+# CustomCobbleGen! Version: 1.3.0 By phil14052
+debug: false
+options:
+  generationModes:
+    '0':
+      firstBlock: water
+      secondBlock: lava
+  playerSearchRadius: 4.0
+  money:
+    format: true
+  gui:
+    showBarrierBlockIfLocked: false
+    hideInfoIfLocked: false
+    confirmpurchases: true
+  signs:
+    enabled: true
+  automation:
+    pistons: false
+  disabled:
+    worlds:
+    - world_nether
+    - world_the_end
+tiers:
+  default:
+    '0':
+      name: Default
+      icon: COBBLESTONE
+      price:
+        money: 0
+      contains:
+        COBBLESTONE: 90
+        COAL_ORE: 10
+    '1':
+      name: Basic
+      icon: COAL_BLOCK
+      price:
+        money: 1000
+      contains:
+        COBBLESTONE: 70
+        COAL_ORE: 20
+        IRON_ORE: 10
+    '2':
+      name: Advanced
+      icon: IRON_BLOCK
+      price:
+        money: 2000
+        items:
+          COBBLESTONE: 64
+      contains:
+        COBBLESTONE: 50
+        COAL_ORE: 30
+        IRON_ORE: 20
+  vip:
+    '0':
+      name: Basic VIP
+      icon: COBBLESTONE
+      price:
+        money: 0
+        xp: 5
+      contains:
+        COBBLESTONE: 90
+        COAL_ORE: 5
+        IRON_ORE: 5
+    '1':
+      name: Advanced VIP
+      icon: COAL_BLOCK
+      price:
+        money: 500
+      contains:
+        COBBLESTONE: 60
+        COAL_ORE: 20
+        IRON_ORE: 20
+    '2':
+      name: Pro VIP
+      icon: IRON_BLOCK
+      price:
+        money: 1000
+      contains:
+        COBBLESTONE: 25
+        COAL_ORE: 35
+        IRON_ORE: 30
+        DIAMOND_ORE: 10

@@ -1,0 +1,108 @@
+# CustomCobbleGen! Version: 1.3.0 By Phil14052
+prefix: '&8[&3CustomCobbleGen&8]'
+invalid-args: '&cInvalid args!'
+player-only: '&cSorry but that can only be run by a player!'
+player-offline: '&cThat player is not online!'
+undifined-class: '&cThat class is not defined!'
+undifined-level: '&cThat level is not defined!'
+no-tier-selected:
+  self: '&cYou have not selected a tier yet'
+  other: '&c%player_name% has not selected a tier yet'
+show-tier:
+  self: You have currently selected level %selected_tier_class% in %selected_tier_level% class
+  other: '%player_name% has currently selected level %selected_tier_class% in %selected_tier_level%
+    class'
+tier-change-success: '&aSuccessfully changed %player_name% tier to %selected_tier_class%
+  %selected_tier_level%'
+no-permissions: '&cYou don''t have permission for that!'
+reload-success: '&aReloaded the plugin in %time% seconds.'
+force-save-success: '&aSuccessfully force saved the player data'
+player:
+  plugin-help:
+  - '&8&l&m---------------------'
+  - ' '
+  - '&3CustomCobbleGen - &8Help'
+  - '&3/%command%&8 - Show the GUI'
+  - '&3/%command% help&8 - Shows the help menu'
+  - '&3/%command% tier&8 - Shows the currently selected tier'
+  - '&3/%command% admin&8 - Shows list of admin commands'
+  - '&8&l&m---------------------'
+gui:
+  prefix: '&3&lCustomCobbleGen menu'
+  buy: '&aClick to buy'
+  can-not-afford: '&cCan''t afford'
+  selected: '&aSelected'
+  select: '&aClick to select'
+  locked:
+    missing-permission: '&cLocked - Missing permissions'
+    prev-unowned: '&cLocked - Buy the previous level first'
+  price:
+    money:
+      afford: '&a$%tier_price_money%'
+      expensive: '&c$%tier_price_money%'
+    xp:
+      afford: '&a%tier_price_xp% exp levels'
+      expensive: '&c%tier_price_xp% exp levels'
+    level:
+      achieved: '&aLevel %tier_price_level% island required'
+      not-achieved: '&cLevel %tier_price_level% island required'
+    items:
+      top:
+        afford: '&aItems needed:'
+        expensive: '&cItems needed:'
+      list:
+        afford: '&a%s1 x %s2'
+        expensive: '&c%s1 x %s2'
+  item:
+    name: '&6&l%tier_name%'
+    lore:
+      title: '&8&lThis tier will give the following results'
+      result: '&8%result_name%: &o%result_percentage%'
+  confirm:
+    cancel:
+      name: '&cCancel'
+      lore: '&8Click to cancel the purchase'
+    buy:
+      name: '&aBuy'
+      lore: '&8Click to confirm the purchase'
+no-tiers-defined: '&cThere are no tiers defined in the config'
+money-format: '###,###,###,###,###.##'
+tier-changed: You have now selected the %selected_tier_name% tier
+tier-purchased: You have now purchased the %selected_tier_name% tier
+player-already-owns-tier: The player already owns this tier
+tier-given: Tier has been given to the player
+tier-gotten: You have unlocked a new tier
+tier-not-purchased: '&cYou have not purchased this tier yet'
+tier-not-locked: '&cThis tier is locked. Buy the previous tier first.'
+tier-not-found: '&cTier not found'
+tier-cant-afford: '&cYou can not afford this tier'
+force-purchased: You have now force bought %selected_tier_name% for %player_name%
+admin-command-usage: '&cUsage: /%command% [reload, forcesave, settier, givetier, forcebuy]'
+signs:
+  GUI:
+    '0': '&3CustomCobbleGen'
+    '1': ' '
+    '2': '&lClick to open'
+    '3': '&lthe GUI'
+  select:
+    '0': '&3CustomCobbleGen'
+    '1': ' '
+    '2': '&lClick to select'
+    '3': '&a&l%tier_name%'
+  buy:
+    '0': '&3CustomCobbleGen'
+    '1': ''
+    '2': '&lClick to buy'
+    '3': '&a&l%tier_name%'
+  not-valid:
+    '0': '&3CustomCobbleGen'
+    '1': ''
+    '2': '&cNot a valid sign'
+    '3': ''
+  no-permission:
+    '0': '&3CustomCobbleGen'
+    '1': '&cYou do not have'
+    '2': '&cpermissions to'
+    '3': '&ccreate this sign'
+  success: Successfully created a clickable sign
+  deleted: '&cSign deleted'
